@@ -1,6 +1,6 @@
 # Day 70 - Task Manager Backend (B43-FSD)
 
-A robust Node.js and Express.js backend application integrated with MongoDB using Mongoose ODM. This project is built as part of Day 70 backend development training.
+A robust Node.js and Express.js backend application integrated with MongoDB using Mongoose ODM. 
 
 ## 🚀 Features
 
@@ -51,8 +51,8 @@ Follow these steps to setup and run the project locally:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/gunasekaran006-alt/day70-b43-backend.git
-cd day70-b43-backend
+git clone https://github.com<your-username>/<your-repo-name>.git
+cd <your-repo-name>
 ```
 
 ### 2. Install Dependencies
@@ -61,13 +61,13 @@ npm install
 ```
 
 ### 3. Setup Environment Variables
-Create a `.env` file in the root directory and add the following configurations:
+Create a `.env` file in the root directory. Copy and update the placeholders with your actual configurations:
 ```env
-port = 8080
-dbport = mongodb://localhost:27017/B43-FSD/my-db
+port = <YOUR_SERVER_PORT>
+dbport = mongodb://<YOUR_LOCAL_HOST>:<YOUR_LOCAL_DB_PORT>/<YOUR_LOCAL_DATABASE_NAME>
 
 # Alternate Cloud DB Configuration (Atlas)
-# atlasport = mongodb+srv://<db_username>:<password>@cluster.mongodb.net/dbname
+# atlasport = mongodb+srv://<YOUR_DB_USERNAME>:<YOUR_DB_PASSWORD>@<YOUR_CLUSTER_URL>/<YOUR_DATABASE_NAME>
 ```
 
 ### 4. Run the Application
